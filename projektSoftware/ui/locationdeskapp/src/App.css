@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.App input,
+.App select {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  font-size: 16px;
+  width: 100%;
+}
+
+.App button {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-add {
+  background-color: #28a745;
+  color: white;
+}
+
+.button-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.button-change {
+  background-color: #007bff;
+  color: white;
+}
+
+.App h2, .App h3 {
+  color: #343a40;
+}
+
+.App p {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App .reservations, .App .desks, .App .locations {
+  width: 100%;
+}
+
+.App .reservations button, .App .desks button {
+  margin-left: 10px;
+}
+
+.App .reservations div {
+  background-color: #e9ecef;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin: 10px 0;
+}
